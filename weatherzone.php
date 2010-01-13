@@ -1,6 +1,6 @@
 <?php
 /*
-	$Id: weatherzone.php 2962 2010-01-13 05:25:21Z james $
+	$Id$
 */
 
 /*
