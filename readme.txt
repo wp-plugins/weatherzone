@@ -2,8 +2,8 @@
 Contributors: jamescollins, glenn-om4
 Tags: weatherzone, weather, australia, shortcode, wp, wpmu
 Requires at least: 2.8
-Tested up to: 2.9.1
-Stable tag: 1.0.0
+Tested up to: 3.0.1
+Stable tag: 1.0.1
 
 Allows you to easily embed Australian weather data on your website. Supports both weather forecast and current weather observations buttons.
 
@@ -17,7 +17,7 @@ Supports both weather forecast and current weather observations buttons.
 
 Requires no knowledge of JavaScript, and is compatible with both WordPress and WordPress MU (WPMU).
 
-To use this plugin, add a `[weatherzone]` shortcode to a page on your website:
+To use this plugin, add a `[weatherzone]` shortcode to a page or text widget on your website:
 
 eg. `[weatherzone mode="a" postcode="b" locality="c" showradar="d"]`
 
@@ -60,13 +60,17 @@ Installation of this plugin is simple:
 
 1. Download the plugin files and copy to your Plugins directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
-1. Add a `[weatherzone]` shortcode to a page on your website. See the plugin description for a list of valid shortcode parameters/attributes.
+1. Add a `[weatherzone]` shortcode to a page or text widget on your website. See the plugin description for a list of valid shortcode parameters/attributes.
 
 == Frequently Asked Questions ==
 
 = How do I add a weather button to my website? =
 
 See the plugin's main description.
+
+= Can I add a weather button to my sidebar =
+
+Yes. As of v1.0.1, you can use the [weatherzone] shortcode in a text widget.
  
 
 == Screenshots ==
@@ -74,12 +78,17 @@ See the plugin's main description.
 
 == Changelog ==
 
+= v1.0.1 =
+
+* Add support for the [weatherzone] shortcode in sidebar text widgets
+* WordPress 3.0.1 compatibility
+
 = v1.0.0 =
 
 * Initial release.
 
 == Upgrade Notice == 
 
-= v1.0 =
+= 1.0.1 =
 
-Initial release.
+* This version allows the [weatherzone] shortcode to be used in sidebar text widgets
