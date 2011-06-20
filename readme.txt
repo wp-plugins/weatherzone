@@ -82,6 +82,7 @@ Yes. As of v1.0.1, you can use the [weatherzone] shortcode in a text widget.
 == Changelog ==
 
 = 1.2 =
+* Translation/localization improvements.
 * WordPress 3.2 compatibility.
 
 = 1.1 =
@@ -97,7 +98,7 @@ Yes. As of v1.0.1, you can use the [weatherzone] shortcode in a text widget.
 == Upgrade Notice == 
 
 = 1.2 =
-* WordPress 3.2 compatibility.
+* Translation/localization improvements and WordPress 3.2 compatibility.
 
 = 1.1 =
 * WordPress 3.1 compatibility.
