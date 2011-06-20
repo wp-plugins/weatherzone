@@ -1,0 +1,35 @@
+# Copyright (C) 2010 WeatherZone Embed
+# This file is distributed under the same license as the WeatherZone Embed package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WeatherZone Embed 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/weatherzone\n"
+"POT-Creation-Date: 2011-03-28 01:05:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Plugin Name of the plugin/theme
+msgid "WeatherZone Embed"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://om4.com.au/wordpress-plugins/weatherzone/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows you to embed WeatherZone.com.au weather buttons on your site. "
+"Supports both weather forecast and current weather observations buttons."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "OM4"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://om4.com.au/"
+msgstr ""
