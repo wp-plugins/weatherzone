@@ -3,8 +3,10 @@ Contributors: jamescollins, glenn-om4
 Donate link: http://om4.com.au/wordpress-plugins/#donate
 Tags: weatherzone, weather, australia, shortcode, wp, multisite, wpmu
 Requires at least: 2.8
-Tested up to: 3.2
-Stable tag: 1.2
+Tested up to: 3.3.2
+Stable tag: 1.2.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allows you to easily embed Australian weather data on your website. Supports both weather forecast and current weather observations buttons.
 
@@ -81,6 +83,10 @@ Yes. As of v1.0.1, you can use the [weatherzone] shortcode in a text widget.
 
 == Changelog ==
 
+= 1.2.1 =
+* WordPress 3.4 compatibility.
+* Clarify license as GPLv2 or later.
+
 = 1.2 =
 * Translation/localization improvements.
 * WordPress 3.2 compatibility.
@@ -96,6 +102,9 @@ Yes. As of v1.0.1, you can use the [weatherzone] shortcode in a text widget.
 * Initial release.
 
 == Upgrade Notice == 
+
+= 1.2.1 =
+* WordPress 3.4 compatibility, clarify license as GPLv2 or later.
 
 = 1.2 =
 * Translation/localization improvements and WordPress 3.2 compatibility.
