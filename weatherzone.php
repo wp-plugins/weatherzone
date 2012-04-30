@@ -31,7 +31,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 class OM4_WeatherZone {
 	
-	var $version = '1.0.1';
+	var $version = '1.2.1';
 	
 	var $dbVersion = 1;
 	
