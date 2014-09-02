@@ -2,9 +2,9 @@
 Contributors: jamescollins, glenn-om4
 Donate link: http://om4.com.au/wordpress-plugins/#donate
 Tags: weatherzone, weather, australia, shortcode, wp, multisite, wpmu
-Requires at least: 2.8
-Tested up to: 3.5
-Stable tag: 1.2.2
+Requires at least: 3.5
+Tested up to: 4.0
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,7 +57,7 @@ Valid values for the `showradar` parameter are:
 * `true`: (default) Yes, display the link
 * `false`: No, do not display the link
 
-See the [WordPress WeatherZone Embed Plugin](http://om4tourism.com/wordpress-plugins/weatherzone/) home page for further information. 
+See the [WordPress WeatherZone Embed Plugin](http://om4.com.au/wordpress-plugins/weatherzone/) home page for further information. 
 
 == Installation ==
 
@@ -82,6 +82,10 @@ Yes. As of v1.0.1, you can use the [weatherzone] shortcode in a text widget.
 1. Example current weather and forecast buttons/widgets
 
 == Changelog ==
+
+= 1.2.3 =
+* WordPress 4.0 compatibility.
+* Readme updates.
 
 = 1.2.2 =
 * WordPress 3.5 compatibility.

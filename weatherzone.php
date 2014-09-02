@@ -3,7 +3,7 @@
 Plugin Name: WeatherZone Embed
 Plugin URI: http://om4.com.au/wordpress-plugins/weatherzone/
 Description: Allows you to embed WeatherZone.com.au weather buttons on your site. Supports both weather forecast and current weather observations buttons.
-Version: 1.2.2
+Version: 1.2.3
 Author: OM4
 Author URI: http://om4.com.au/
 Text Domain: om4-weatherzone
@@ -11,7 +11,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-/*  Copyright 2009-2012 OM4 (email : info@om4.com.au)
+/*  Copyright 2009-2014 OM4 (email : info@om4.com.au)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -31,7 +31,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 class OM4_WeatherZone {
 	
-	var $version = '1.2.2';
+	var $version = '1.2.3';
 	
 	var $dbVersion = 1;
 	
@@ -56,13 +56,13 @@ class OM4_WeatherZone {
 		
 		$this->url = plugins_url('weatherzone/');
 
-		register_activation_hook(__FILE__, array(&$this, 'Activate'));
+		register_activation_hook(__FILE__, array($this, 'Activate'));
 		
-		add_action('init', array(&$this, 'LoadDomain'));
+		add_action('init', array($this, 'LoadDomain'));
 		
-		add_action('init', array(&$this, 'CheckVersion'));
+		add_action('init', array($this, 'CheckVersion'));
 		
-		add_action('init', array(&$this, 'RegisterShortcode'));
+		add_action('init', array($this, 'RegisterShortcode'));
 
 		$this->installedVersion = intval(get_option($this->optionName));
 	}
@@ -105,7 +105,7 @@ class OM4_WeatherZone {
 	 * Register the [weatherzone] shortcode
 	 */
 	function RegisterShortcode() {
-		add_shortcode('weatherzone', array(&$this, 'ShortcodeHandler'));
+		add_shortcode('weatherzone', array($this, 'ShortcodeHandler'));
 		
 		// Parse shortcodes in text widgets
 		// Required until http://core.trac.wordpress.org/ticket/10457 is committed
@@ -211,5 +211,3 @@ if(defined('ABSPATH') && defined('WPINC')) {
 		$GLOBALS["om4_WeatherZone"] = new OM4_WeatherZone();
 	}
 }
-
-?>
